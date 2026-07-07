@@ -26,12 +26,13 @@ export function WaveLine({ className = "" }: { className?: string }) {
         </linearGradient>
       </defs>
       {Array.from({ length: 60 }).map((_, i) => {
-        const h = 6 + Math.abs(Math.sin(i * 0.5)) * 40;
+        const h = Number((6 + Math.abs(Math.sin(i * 0.5)) * 40).toFixed(2));
+        const y = Number((30 - h / 2).toFixed(2));
         return (
           <rect
             key={i}
             x={i * 7}
-            y={30 - h / 2}
+            y={y}
             width="3"
             height={h}
             fill="url(#wg)"

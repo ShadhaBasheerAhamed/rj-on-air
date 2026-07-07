@@ -561,7 +561,7 @@ function Index() {
               <a href="#voice" className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 font-medium text-primary-foreground glow-red hover:scale-105 transition">
                 <I.mic className="w-4 h-4" /> Listen to My Voice
               </a>
-              <a href="/Shadha_Basheer_Ahamed_Resume.pdf" download="Shadha_Basheer_Ahamed_Resume.pdf" className="inline-flex items-center gap-2 rounded-full border border-gold/50 text-gold px-6 py-3 font-medium glass hover:bg-gold/10 transition">
+              <a href="/Shadha_Basheer_Ahamed_rj_resume.pdf" download="Shadha_Basheer_Ahamed_rj_resume.pdf" className="inline-flex items-center gap-2 rounded-full border border-gold/50 text-gold px-6 py-3 font-medium glass hover:bg-gold/10 transition">
                 <I.download className="w-4 h-4" /> View Resume
               </a>
               <a href="#timeline" className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 font-medium glass hover:border-primary/50 transition">
